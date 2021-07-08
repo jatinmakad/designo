@@ -1,0 +1,55 @@
+.company{
+    width: 1100px;
+    margin: 0 auto;
+}
+.Comp_1{
+    width: 100%;
+    display: flex;
+    background-color: #E7816A;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.Comp_1 img{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Comp_1_txt{
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.Comp_1_txt h1{
+    font-size: 50px;
+}
+.Comp_1_txt p{
+    margin-top: -10px;
+}
+.co_sec{
+    margin-bottom: 100px;
+}
+
+.Comp_2{
+    width: 100%;
+    display: flex;
+    background-color: #FDF3F0;
+    border-radius: 10px;
+}
+.Comp_2_txt h1{
+    font-size: 50px;
+    color:#E7816A ;
+}
+.Comp_2_txt p{
+    padding-bottom: 30px;
+    margin-top: -10px;
+}
+.Comp_2_txt{
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.co_third{
+    margin-bottom: 300px;
+}

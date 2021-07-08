@@ -1,0 +1,137 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1D1C1E ;
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-right: 40px;
+    margin-top: 70px; */
+}
+.list li a{
+    color: #fff;
+}
+.btn2::before {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    width: 100%;
+    height: 1.5px;
+    display: block;
+    background: #fff;
+    color: #fff;
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+  }
+  
+  .btn2:hover::before {
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)
+  }
+  .list2 {
+    display: flex;
+    width: 37%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list2 li {
+    list-style: none;
+  }
+  .list2 li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .foot_main{
+    position: relative;
+  }
+  .foot{
+      background-color:#1D1C1E ;
+      height: 50vh;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+  }
+  .footer_last{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .footer_last h2{
+      color: gray;
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  .footer_last h3{
+      font-size: 15px;
+      
+      color: gray;
+  }
+  .footer_last p{
+    font-size: 15px;
+      margin-top: -5px;
+      color: gray;
+  }
+  .footer_last3 .MuiSvgIcon-root{
+      padding-right: 10px;
+      font-size: 35px;
+   color: #C07969;
+  }
+
+  .footer_banner{
+      background-image: url("../assets//home/desktop/bg-pattern-hero-home.svg");
+      background-size: 300px;
+      padding: 0 50px;
+      bottom: 80%;
+      left: 17%;
+      border-radius: 10px;
+      position: absolute;
+      color: #fff;
+    background-color: #E7816A;
+      align-items: center;
+      display: flex;
+      width: 70%;
+      height: 250px;
+      justify-content: space-around;
+  }
+.footer_banner_btn button{
+    text-transform: uppercase;
+    width: 200px;
+    font-size: 15px;
+    padding: 15px 8px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.footer_banner_btn button:hover{
+    background-color: #FFAD9B;
+    color: #fff;
+}
+.footer_banner_txt{
+    width: 550px;
+}
+.footer_banner_txt h1{
+    font-size: 30px;
+}
+ 
+.footer_banner_txt p{
+  font-size: 15px;
+}

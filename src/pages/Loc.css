@@ -1,0 +1,45 @@
+.lo_main{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+.lo_1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.lo_1_text{
+    flex: .67;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FDF3F0;
+    border-radius: 20px;
+}
+.lo_1 img{
+    border-radius: 20px;
+    flex: .3;
+}
+.lo_1_text h1{
+    margin-left: 100px;
+    font-size: 50px;
+    color: #e7816a;
+}
+.lo_contact h2{
+    font-size: 20px;
+}
+.lo_contact p{
+    margin-top: -6px;
+}
+.lo_contact{
+    margin-top: -50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.lo{
+    width: 1100px;
+    margin: 0 auto;
+}

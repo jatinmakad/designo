@@ -1,0 +1,37 @@
+.comp{
+    width: 500px;
+    height: 250px;
+    background: url("../assets//home/desktop/image-app-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+}
+.comp h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.comp p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.comp .MuiSvgIcon-root{
+    color: #e7816a;
+    font-size: 17px;
+}
+.img2{
+    background-image: url("../assets/home/desktop/image-graphic-design.jpg") !important;
+}
+.img2 h1{
+    font-size: 38px !important;
+}
+.img3{
+    background-image: url("../assets/home/desktop/image-web-design-small.jpg") !important;
+}
